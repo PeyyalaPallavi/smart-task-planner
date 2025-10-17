@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Task Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Smart Task Planner 🧠</h1>
+    <p>Generate a daily plan for your project easily!</p>
+
+    <div class="controls">
+      <input type="text" id="project" placeholder="Enter project (e.g., Website)" />
+      <input type="number" id="days" placeholder="Enter number of days (e.g., 7)" min="1" />
+      <select id="skill">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Expert</option>
+      </select>
+      <button id="generateBtn">Generate Plan</button>
+      <button id="downloadBtn">Download PDF</button>
+    </div>
+
+    <section id="plan" class="plan"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 Smart Task Planner | Built by Pallavi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
